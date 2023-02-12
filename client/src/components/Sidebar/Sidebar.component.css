@@ -1,0 +1,25 @@
+.sidebar {
+    margin-top: 16px;
+    width: 150px;
+    height: 700px;
+    background-color: blueviolet;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-item {
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    color: red;
+}
+
+.sidebar-item:active {
+    font-weight: bold;
+}
